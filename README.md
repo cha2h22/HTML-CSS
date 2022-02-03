@@ -1,5 +1,9 @@
 # HTML-CSS
-Chae-hee's first coding study<br><br>
+Chae-hee's first coding study<br>
+
+* **HTML-CSS-01** 생활코딩 'HTML&Internet' 강의, 다양한 태그 실습<br>
+* **HTML-CSS-02** Webstoryboy '웹 표준 사이트만들기(2019)' 강의, 레이아웃 실습<br>
+* **HTML-CSS-03** codeit '웹 퍼블리싱(초급)' 강의, HTML/CSS 기초 및 태그 실습<br>
 
 
 # Chae Hee
