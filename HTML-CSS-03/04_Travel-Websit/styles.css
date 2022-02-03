@@ -1,0 +1,27 @@
+.logo {
+    display: block; /* 이미지 가운데 정렬하는 방법 */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+  }
+  
+  .menu { /* 링크가 들어간 글씨는 div로 감싸주고 가운데 정렬해야함 */
+    text-align: center;
+    margin-top: 60px; /* 위에 간격 */
+    margin-bottom: 60px; /* 아래 간격 */
+  }
+  
+  a {
+    color: #58595B;
+    text-decoration: none; /* 링크 밑줄 없애기 */
+    font-size: 16px;
+    font-family: Helvetica;
+    margin-right: 10px; /* 간격조절 */
+    margin-left: 10px;
+  }
+  
+  .img { /* 이미지 가운데 정렬하는 방법 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
