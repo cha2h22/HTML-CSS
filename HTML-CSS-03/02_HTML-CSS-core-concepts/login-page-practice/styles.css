@@ -37,6 +37,11 @@
     padding: 10px;
     color: white;
   }
+
+  /*로그인 버튼 마우스 오버*/
+  .submit-btn:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.50);
+  }
   
   /*비밀번호을 잊어버리셨나요? 링크 div*/
   .links {
