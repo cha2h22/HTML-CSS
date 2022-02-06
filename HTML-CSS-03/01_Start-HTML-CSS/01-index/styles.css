@@ -1,0 +1,18 @@
+h1 {
+    font-size: 64px; /* 폰트 크기 */
+    text-align: center; /* 텍스트 정렬 */
+}
+
+h3 {
+    margin-top: 100px; /* 요소 사이의 여백설정 / bottom,top,right,left.. */
+}
+
+p b {
+    font-size: 23px;
+    color: blue; /* 텍스트 색상 */
+}
+img { /* 이미지를 가운데 정렬하는 방법 / 아래 세가지 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
