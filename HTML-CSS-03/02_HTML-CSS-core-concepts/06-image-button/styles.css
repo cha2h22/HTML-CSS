@@ -1,0 +1,18 @@
+body {
+    margin: 50px 0;
+}
+h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+/* 마지막 태그를 제외하고 적용하는 태그 */
+div a:not(:last-child) {
+    margin-right: 20px;
+}

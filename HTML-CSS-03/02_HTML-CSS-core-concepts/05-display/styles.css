@@ -1,12 +1,40 @@
 body {
+    font-size: 20px;
+}
+.block {
     font-size: 38px;
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
 }
-div {
-    width: 300px;
-    height: 500px;
-}
+/* inline은 줄 안 바뀌고 가로세로 영역이 없음, block은 줄이 바뀌고 가로세로 영역을 따로 정할 수 있음 */
+
 i {
     display: inline-block;
+    /*inline요소에 가로세로를 설정하고 싶을 때는 둘을 섞은 'inlne-block'을 사용하면 됨*/
+    width: 100px;
+    height: 100px;
+}
+
+/* <img>태그는 가로세로 영역을 설정해줄 수 있는 특별한 inline 요소임 */
+.container {
+    margin: 0;
+}
+img {
+    vertical-align: middle;
+    /* 이미지가 가운데를 기준으로 정렬이 되는 태그, 엄청 큰 글자 inline요소라고 생각하면 됨 */
+}
+
+.google-link {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
     width: 300px;
-    height: 300px;
+    background-color: #fafafa;
+    margin-top: 100px;
+
+    display: block;
+    color: black;
+    text-decoration: none;
 }

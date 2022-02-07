@@ -1,0 +1,28 @@
+.container {
+    background-color: orange;
+}
+.alex {
+    font-size: 90px;
+    background-color: pink;
+}
+.inline-block {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 50px;
+    overflow: scroll;
+}
+
+.ben {
+    background-color: lime;
+    font-size: 30px;
+    vertical-align: middle;
+
+}
+
+.chris {
+    background-color: yellow;
+    font-size: 60px;
+    vertical-align: middle;
+}
