@@ -15,22 +15,26 @@ body {
   #logo {
     font-family: serif;
     float: left;
-  
-    /* 이건 지우세요 */
-    background-color: orange;
+    line-height: 60px;
   }
   
+  #logo img {
+    vertical-align: middle;
+  }
+
   .hero-header {
     background-image: url("https://bakey-api.codeit.kr/files/627/images/hero_image.jpg");
     background-size: cover;
     background-position: center center;
     height: 670px;
     text-align: center;
+    line-height: 670px;
   }
   
   .hero-header .info {
-    /* 이건 지우세요 */
-    background-color: orange;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
   }
   
   .hero-header .info h1 {
