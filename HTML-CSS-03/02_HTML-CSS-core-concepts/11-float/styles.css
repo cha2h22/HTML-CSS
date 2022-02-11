@@ -33,3 +33,8 @@ img {
 .col-3 {
     width: 600px;
 }
+
+/* clear은 left라고 쓰면 왼쪽을 비워야한다는 뜻, 왼쪽을 비우기위해서 줄이 바뀌게됨 */
+.clearfix {
+    clear: left;
+}
