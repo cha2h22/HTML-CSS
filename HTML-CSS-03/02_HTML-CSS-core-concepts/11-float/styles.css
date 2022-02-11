@@ -1,0 +1,35 @@
+/* flaot는 뜨다 라는 뜻으로 위로 올라가게됨, block요소만 그 공간에 들어갈 수 있고 inlign요소는 그 공간에 들어갈 수 없음*/
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+body {
+    margin: 50px;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    /*이미지에 마진을 주면 글씨와의 간격이 생김*/
+}
+
+/* 그리드 float (multiple float) */
+.col {
+    height: 200px;
+    float: left;
+}
+
+.col-1 {
+    width: 200px;
+}
+
+.col-2 {
+    width: 400px;
+}
+
+.col-3 {
+    width: 600px;
+}
