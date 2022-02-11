@@ -51,7 +51,6 @@
     background-color: blue;
     height: 100px;
     width: 100px;
-    position: absolute; /*absolute는 가장 가까운 positioning이 된 조상요소를 기준으로 위치를 잡음 (green)*/
-    bottom: 40px;
-    right: 10px;
+    position: absolute; /*absolute는 가장 가까운 positioning이 된 조상요소를 기준으로 위치를 잡음 (red);
+    right: 10px; */
 }
