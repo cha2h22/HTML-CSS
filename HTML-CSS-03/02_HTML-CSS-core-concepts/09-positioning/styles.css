@@ -1,4 +1,4 @@
-div {
+.first {
     margin: 30px;
     padding: 30px;
 }
@@ -15,10 +15,43 @@ div {
     border: 1px solid blue;
 }
 
-b {
+.b1 {
     font-size: 28px;
     background-color: orange;
-    position: relative; /* 원래 있어야 할 공간에  */
+    position: relative; /* 원래 있어야 할 공간에서 이동시키는 것, 원래 있던 공간에 빈 공간이 생김*/
     top: 30px; /* 위에 30px 공간을 만드는 것 */
-    left: 50px;
+    left: 50px; /*원래 있어야 하는 공간에서 떨어짐*/
+}
+
+.b2 {
+    font-size: 28px;
+    background-color: orange;
+    position: fixed; /* 위치가 고정됨, 원래 있던 공간에 빈 공간이 안 생김, 브라우저 윈도우가 기준*/
+    top: 30px; /* 위에 30px 공간을 만드는 것 */
+    left: 50px; /*원래 있어야 하는 공간에서 떨어짐*/
+}
+
+.red2 {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.green2 {
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    /* position: relative;
+    top: 40px;
+    left: 90px; */
+}
+
+.blue2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute; /*absolute는 가장 가까운 positioning이 된 조상요소를 기준으로 위치를 잡음 (green)*/
+    bottom: 40px;
+    right: 10px;
 }
