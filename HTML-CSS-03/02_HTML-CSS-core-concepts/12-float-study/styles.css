@@ -1,59 +1,58 @@
-body {
-    background-color: #F0E8D9;
+* {
     box-sizing: border-box;
     font-family: 'Jua', sans-serif;
 }
 
+body {
+    background-color: #F0E8D9;
+}
+
 h1 {
+    text-align: center;
     font-size: 64px;
     color: #58595B;
-    text-align: center;
     margin-top: 75px;
     margin-bottom: 30px;
 }
 
 h2 {
+    text-align: center;
     font-size: 32px;
     color: #58595B;
-    text-align: center;
     margin-bottom: 75px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px 10px 0 0;
-}
-
-.box {
+.food {
     background-color: white;
     width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.info {
     padding: 20px;
-    border-radius: 0 0 10px 10px;
+    text-align: center;
 }
 
-.title {
-    text-align: center;
+.food h3 {
+    color: #58595B;
     font-size: 32px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 20px;
-    color: #58595B;
 }
 
-.text {
+.food p {
+    color: #58595B;
     font-size: 16px;
+    margin-top: 0;
     margin-bottom: 16px;
-    color: #58595B;
+    text-align: left;
 }
 
-.button {
-    font-size: 16px;
+.food a {
     color: blue;
-    text-decoration: none;
-}
-
-#button {
-    text-align: center;
     text-decoration: none;
 }
