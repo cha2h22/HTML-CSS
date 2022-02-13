@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+    min-width: 992;
+}
+
+/* 네비게이션바 */
+.navbar {
+    height: 60px; /*네비의 높이*/
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar #logo {
+    line-height: 60px; /* 로고의 세로 간격 */
+}
+
+.navbar #logo img {
+    vertical-align: middle; /*세로의 가운데정렬*/
+}
+
+.navbar #menu {
+    float: right; /*오른쪽 정렬*/
+    list-style: none; /*리스트 점 요소 없애기*/
+    padding: 0; /**/
+    margin: 0; /**/
+}
+
+.navbar #menu li {
+    float: left; /*왼쪽으로 정렬해서 리스트를 일자로 만들어주기*/
+    margin-left: 50px; 
+    line-height: 60px; /*글씨 세로 간격*/
+}
+
+.navbar #menu li a {
+    color: #545454;
+    font-size: 13px;
+    text-decoration: none; /*텍스트 밑줄 없애주기*/
+    font-weight: bold; /*글씨 두께*/
+}
+
+
+
+/* 히로 헤더 */
+.hero-header {
+    height: 450px;
+    background-image: url("https://bakey-api.codeit.kr/files/629/images/hero_header.jpg");
+    background-repeat: no-repeat; /*반복 안함*/
+    background-size: cover; /*사이즈는 정사이즈로 꽉채우는*/
+    background-position: center center; /*가운데 중심으로 배경이 채워짐*/
+}
+
+/* 프러덕트 */
+.products h3 {
+    font-size: 24px;
+    color: #545454;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.product {
+    width: 225px;
+    text-align: center;
+    color: #545454;
+    display: block;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+}
+
+.product-list {
+    width: 735px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-name {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* 푸터 */
+.footer {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.footer a {
+    margin-left: 10px;
+    margin-right: 10px;
+}

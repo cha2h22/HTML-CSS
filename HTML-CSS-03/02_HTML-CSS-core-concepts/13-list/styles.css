@@ -1,0 +1,12 @@
+ul {
+    padding-left: 0px; /*왼쪽 기호를 없애면 패딩값을 0을 줘야 왼쪽으로 붙음*/
+    width: 200px;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+    background-color: #77abff;
+    color: white;
+    padding: 10px 20px;
+}

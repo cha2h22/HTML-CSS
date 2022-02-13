@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*네비게이션*/
+.navbar {
+    padding: 0 20px;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.50);
+    height: 60px;
+}
+
+.logo {
+    float: left;
+    line-height: 60px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+/*메뉴*/
+#menu {
+    list-style: none; /*리스트 점 요소 없애기*/
+    float: right; /*메뉴를 오른쪽으로 옮기기*/
+}
+
+#menu li {
+    float: left; /*리스트를 한 줄로 만들기*/
+    margin: 0;
+    padding: 0;
+}
+
+#menu li a {
+    padding-left: 10px;/*리스트 양 옆 간격 주기*/
+    padding-right: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover { /*마우스 오버됐을 때*/
+    background-color: gainsboro;
+}
+
+/*메인화면*/
+.hero-header {
+    background-image: url("https://bakey-api.codeit.kr/files/628/images/hero_image.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 670px;
+    text-align: center;
+    line-height: 670px;
+}
+
+.hero-header .info {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.hero-header .info h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 13px;
+    color: white;
+    font-weight: 300;
+}
+
+.hero-header .info h2 {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 60px;
+    color: white;
+    font-weight: 400;
+}
+
+.hero-header a {
+    font-size: 14px;
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
