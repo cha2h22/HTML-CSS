@@ -1,0 +1,30 @@
+/*기본 폰트 크기*/
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*브라우저 가로 화면이 768px 이상일 때 적용할 스타일*/
+@media (min-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
+
+/*브라우저 가로 화면이 992px 이상일 때 적용할 스타일*/
+@media (min-width: 992px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+}
